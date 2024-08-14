@@ -2,8 +2,8 @@ import React from "react";
 import { FaChevronDown, FaRegHeart } from "react-icons/fa";
 import { LuUser } from "react-icons/lu";
 import { FiShoppingCart } from "react-icons/fi";
-import { LuPhoneCall } from "react-icons/lu";
 import { MdOutlineMail } from "react-icons/md";
+import { PiPhoneCallBold } from "react-icons/pi";
 
 const Header = () => {
   return (
@@ -20,7 +20,7 @@ const Header = () => {
               </div>
               <div className="flex gap-x-2 items-center">
                 <span>
-                  <LuPhoneCall />
+                  <PiPhoneCallBold />
                 </span>
                 <a href="#">(12345)67890</a>
               </div>
