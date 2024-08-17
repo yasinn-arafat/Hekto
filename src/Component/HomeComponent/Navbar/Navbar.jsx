@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../../assets/Hekto.png";
-import Search from "../CommonComponent/Search/Search";
+import Logo from "../../../assets/Hekto.png";
+import Search from "../../CommonComponent/Search/Search";
 
 const Navbar = () => {
   return (
