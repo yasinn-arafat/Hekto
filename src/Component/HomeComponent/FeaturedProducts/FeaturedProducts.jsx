@@ -4,7 +4,9 @@ const FeaturedProducts = () => {
   return (
     <>
       <div className="p-6">
-        <div className="container"></div>
+        <div className="container">
+          <div></div>
+        </div>
       </div>
     </>
   );
