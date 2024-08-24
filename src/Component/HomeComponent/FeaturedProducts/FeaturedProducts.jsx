@@ -5,7 +5,11 @@ const FeaturedProducts = () => {
     <>
       <div className="p-6">
         <div className="container">
-          <div></div>
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
     </>
