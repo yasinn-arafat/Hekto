@@ -5,7 +5,7 @@ const FeaturedProducts = () => {
     <>
       <div className="p-6">
         <div className="container">
-          <div>
+          <div className="flex items-center gap-x-7">
             <div></div>
             <div></div>
             <div></div>
