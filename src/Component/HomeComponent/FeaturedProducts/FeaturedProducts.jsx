@@ -15,7 +15,6 @@ const FeaturedProducts = () => {
             <FeaturedCard />
             <FeaturedCard />
             <FeaturedCard />
-            <FeaturedCard />
           </div>
         </div>
       </div>
