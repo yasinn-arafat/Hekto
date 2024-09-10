@@ -1,14 +1,14 @@
 import React from "react";
-import Title from "../../CommonComponent/Title/Title";
+import CommonTitle from "../../CommonComponent/CommonTitle/CommonTitle";
 import FeaturedCard from "../../CommonComponent/FeatueredCard/FeaturedCard";
 
 const FeaturedProducts = () => {
   return (
     <>
-      <div className="p-32">
+      <div className="pt-32">
         <div className="container">
           <div className="pb-12">
-            <Title />
+            <CommonTitle Title={"Featured Products"} />
           </div>
           <div className="flex items-center justify-center gap-x-8">
             <FeaturedCard />
