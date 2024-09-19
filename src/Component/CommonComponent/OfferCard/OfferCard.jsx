@@ -1,7 +1,7 @@
 import React from "react";
 
-const OfferCard = () => {
-  return <div>OfferCard</div>;
+const OfferCard = ({ className, children }) => {
+  return <div className={className}>{children}</div>;
 };
 
 export default OfferCard;
