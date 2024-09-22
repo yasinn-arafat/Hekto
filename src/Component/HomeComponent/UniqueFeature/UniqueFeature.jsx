@@ -6,7 +6,7 @@ const UniqueFeature = () => {
     <>
       <div className="bg-[#F1F0FF] py-8">
         <div className="container">
-          <div>
+          <div className="flex items-center justify-between">
             <div>
               <img src={SofaImg} alt={SofaImg} />
             </div>
