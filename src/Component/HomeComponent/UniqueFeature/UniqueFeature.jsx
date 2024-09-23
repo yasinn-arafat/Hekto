@@ -10,6 +10,9 @@ const UniqueFeature = () => {
             <div>
               <img src={SofaImg} alt={SofaImg} />
             </div>
+            <div>
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
