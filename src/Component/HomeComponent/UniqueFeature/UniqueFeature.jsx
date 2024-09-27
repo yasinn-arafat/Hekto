@@ -12,7 +12,7 @@ const UniqueFeature = () => {
             </div>
             <div>
               <div>
-                <h2 className="text-[#151875] text-4xl font-JosefinFont font-bold pb-7 pt-[75px] w-[507px] leading-[45px]">
+                <h2 className="text-[#151875] text-4xl font-JosefinFont font-bold pb-7 pt-[76px] w-[507px] leading-[45px]">
                   Unique Features Of leatest & Trending Poducts
                 </h2>
               </div>
