@@ -35,6 +35,20 @@ const UniqueFeature = () => {
                   <p>Arms, backs and seats are structurally reinforced</p>
                 </li>
               </ul>
+
+              <div className="flex items-center gap-x-6 pt-10">
+                <button className="py-3 px-7 bg-[#FB2E86] rounded-sm font-JosefinFont font-semibold text-[17px] text-white">
+                  Add To Cart
+                </button>
+                <div>
+                  <h4 className="text-[#151875] font-JosefinFont font-semibold text-sm">
+                    B&B Italian Sofa
+                  </h4>
+                  <p className="text-[#151875] font-LatoFont font-normal text-sm">
+                    $32.00
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
