@@ -26,7 +26,7 @@ const TrendingProducts = () => {
                   </picture>
                 </div>
 
-                <div className="pt-[15px] flex flex-col items-center">
+                <div className="pt-[16px] flex flex-col items-center">
                   <h6 className="text-[#151875] font-LatoFont font-bold text-base">
                     Cantilever chair
                   </h6>
