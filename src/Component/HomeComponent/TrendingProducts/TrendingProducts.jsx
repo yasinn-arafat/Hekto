@@ -131,6 +131,7 @@ const TrendingProducts = () => {
                 </div>
               </OfferCard>
             </div>
+            <div></div>
           </div>
         </div>
       </div>
