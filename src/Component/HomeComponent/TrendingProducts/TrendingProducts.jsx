@@ -2,6 +2,9 @@ import React from "react";
 import CommonTitle from "../../CommonComponent/CommonTitle/CommonTitle";
 import OfferCard from "../../CommonComponent/OfferCard/OfferCard";
 import TrendingProductImg from "../../../assets/TrendingProduct3.png";
+import TrendingImgBottom1 from "../../../assets/Trending-5.png";
+import TrendingImgBottom2 from "../../../assets/Trending-6.png";
+import TrendingImgBottom3 from "../../../assets/Trending-7.1.png";
 
 const TrendingProducts = () => {
   return (
@@ -131,7 +134,44 @@ const TrendingProducts = () => {
                 </div>
               </OfferCard>
             </div>
-            <div></div>
+            <div className="pt-10 flex justify-center gap-x-14">
+              <div className="w-[420px] h-[270px] bg-[#FFF6FB] relative">
+                <div className="pt-[34px] pl-[25px]">
+                  <h5 className="font-JosefinFont font-semibold text-[#151875] text-[26px]">
+                    23% off in all products
+                  </h5>
+                  <a
+                    href="#"
+                    className="font-LatoFont font-semibold text-[#FB2E86] text-base underline underline-offset-4"
+                  >
+                    Shop Now
+                  </a>
+                </div>
+                <div className="absolute bottom-0 right-0">
+                  <picture>
+                    <img src={TrendingImgBottom1} alt={TrendingImgBottom1} />
+                  </picture>
+                </div>
+              </div>
+              <div className="w-[420px] h-[270px] bg-[#EEEFFB] relative">
+                <div className="pt-[34px] pl-[25px]">
+                  <h5 className="font-JosefinFont font-semibold text-[#151875] text-[26px]">
+                    23% off in all products
+                  </h5>
+                  <a
+                    href="#"
+                    className="font-LatoFont font-semibold text-[#FB2E86] text-base underline underline-offset-4"
+                  >
+                    Shop Now
+                  </a>
+                </div>
+                <div className="absolute bottom-0 right-2">
+                  <picture>
+                    <img src={TrendingImgBottom2} alt={TrendingImgBottom2} />
+                  </picture>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
