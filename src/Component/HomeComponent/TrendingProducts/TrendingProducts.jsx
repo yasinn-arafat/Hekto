@@ -13,6 +13,7 @@ const TrendingProducts = () => {
         <div className="container">
           <div>
             <CommonTitle Title={"Trending Products"} />
+
             <div className="flex items-center gap-x-12 justify-center pt-10 cursor-pointer ">
               <OfferCard
                 className={
@@ -134,8 +135,9 @@ const TrendingProducts = () => {
                 </div>
               </OfferCard>
             </div>
+
             <div className="pt-10 flex justify-center gap-x-14">
-              <div className="w-[420px] h-[270px] bg-[#FFF6FB] relative">
+              <div className="w-[420px] h-[270px] bg-[#FFF6FB] relative shadow-lg">
                 <div className="pt-[34px] pl-[25px]">
                   <h5 className="font-JosefinFont font-semibold text-[#151875] text-[26px]">
                     23% off in all products
@@ -153,7 +155,8 @@ const TrendingProducts = () => {
                   </picture>
                 </div>
               </div>
-              <div className="w-[420px] h-[270px] bg-[#EEEFFB] relative">
+
+              <div className="w-[420px] h-[270px] bg-[#EEEFFB] relative shadow-lg">
                 <div className="pt-[34px] pl-[25px]">
                   <h5 className="font-JosefinFont font-semibold text-[#151875] text-[26px]">
                     23% off in all products
@@ -169,6 +172,56 @@ const TrendingProducts = () => {
                   <picture>
                     <img src={TrendingImgBottom2} alt={TrendingImgBottom2} />
                   </picture>
+                </div>
+              </div>
+
+              <div className="w-[267px] flex flex-col justify-between">
+                <div className="w-full h-[74px] flex items-center gap-x-2">
+                  <div className="w-[103px] h-[74px] bg-[#F5F6F8] flex flex-col items-center justify-center">
+                    <picture>
+                      <img src={TrendingImgBottom3} alt={TrendingImgBottom3} />
+                    </picture>
+                  </div>
+                  <div>
+                    <h5 className="text-base text-[#151875] font-JosefinFont font-semibold">
+                      Executive Seat chair
+                    </h5>
+                    <p className="text-xs text-[#151875] font-JosefinFont font-normal line-through">
+                      $32.00
+                    </p>
+                  </div>
+                </div>
+
+                <div className="w-full h-[74px] flex items-center gap-x-2">
+                  <div className="w-[103px] h-[74px] bg-[#F5F6F8] flex flex-col items-center justify-center">
+                    <picture>
+                      <img src={TrendingImgBottom3} alt={TrendingImgBottom3} />
+                    </picture>
+                  </div>
+                  <div>
+                    <h5 className="text-base text-[#151875] font-JosefinFont font-semibold">
+                      Executive Seat chair
+                    </h5>
+                    <p className="text-xs text-[#151875] font-JosefinFont font-normal line-through">
+                      $32.00
+                    </p>
+                  </div>
+                </div>
+
+                <div className="w-full h-[74px] flex items-center gap-x-2">
+                  <div className="w-[103px] h-[74px] bg-[#F5F6F8] flex flex-col items-center justify-center">
+                    <picture>
+                      <img src={TrendingImgBottom3} alt={TrendingImgBottom3} />
+                    </picture>
+                  </div>
+                  <div>
+                    <h5 className="text-base text-[#151875] font-JosefinFont font-semibold">
+                      Executive Seat chair
+                    </h5>
+                    <p className="text-xs text-[#151875] font-JosefinFont font-normal line-through">
+                      $32.00
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
