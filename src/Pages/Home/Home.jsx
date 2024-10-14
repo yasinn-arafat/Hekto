@@ -8,6 +8,7 @@ import ShopexOffer from "../../Component/HomeComponent/ShopexOffer/ShopexOffer";
 import UniqueFeature from "../../Component/HomeComponent/UniqueFeature/UniqueFeature";
 import TrendingProducts from "../../Component/HomeComponent/TrendingProducts/TrendingProducts";
 import TopCategories from "../../Component/HomeComponent/TopCategories/TopCategories";
+import NewsLater from "../../Component/HomeComponent/NewsLater/NewsLater";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <UniqueFeature />
         <TrendingProducts />
         <TopCategories />
+        <NewsLater />
       </div>
     </>
   );
