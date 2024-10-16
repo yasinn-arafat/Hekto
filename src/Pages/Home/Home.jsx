@@ -9,6 +9,7 @@ import UniqueFeature from "../../Component/HomeComponent/UniqueFeature/UniqueFea
 import TrendingProducts from "../../Component/HomeComponent/TrendingProducts/TrendingProducts";
 import TopCategories from "../../Component/HomeComponent/TopCategories/TopCategories";
 import NewsLater from "../../Component/HomeComponent/NewsLater/NewsLater";
+import Blog from "../../Component/HomeComponent/Blog/Blog";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         <TrendingProducts />
         <TopCategories />
         <NewsLater />
+        <Blog />
       </div>
     </>
   );
