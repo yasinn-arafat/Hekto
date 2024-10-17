@@ -10,7 +10,9 @@ const Blog = () => {
           <div>
             <CommonTitle Title={"Leatest Blog"} />
           </div>
-          <div className="pt-20">
+          <div className="pt-20 flex items-center gap-x-20 justify-center">
+            <BlogComponent />
+            <BlogComponent />
             <BlogComponent />
           </div>
         </div>
