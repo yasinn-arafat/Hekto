@@ -37,7 +37,26 @@ const Footer = () => {
               </div>
             </div>
 
-            <div></div>
+            <div>
+              <h3>Catagories</h3>
+              <ul>
+                <li>
+                  <a href="#">Laptops & Computers</a>
+                </li>
+                <li>
+                  <a href="#">Cameras & Photography</a>
+                </li>
+                <li>
+                  <a href="#">Smart Phones & Tablets</a>
+                </li>
+                <li>
+                  <a href="#">Video Games & Consoles</a>
+                </li>
+                <li>
+                  <a href="#">Waterproof Headphones</a>
+                </li>
+              </ul>
+            </div>
             <div></div>
           </div>
         </div>
