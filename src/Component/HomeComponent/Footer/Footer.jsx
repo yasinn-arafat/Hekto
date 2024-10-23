@@ -57,7 +57,26 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div></div>
+            <div>
+              <h3>Customer Care</h3>
+              <ul>
+                <li>
+                  <a href="#">My Account</a>
+                </li>
+                <li>
+                  <a href="#">Discount</a>
+                </li>
+                <li>
+                  <a href="#">Returns</a>
+                </li>
+                <li>
+                  <a href="#">Orders History</a>
+                </li>
+                <li>
+                  <a href="#">Order Tracking</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
