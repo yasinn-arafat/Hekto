@@ -78,7 +78,27 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h4></h4>
+              <h4>Pages</h4>
+              <ul>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Browse the Shop</a>
+                </li>
+                <li>
+                  <a href="#">Category</a>
+                </li>
+                <li>
+                  <a href="#">Pre-Built Pages</a>
+                </li>
+                <li>
+                  <a href="#">Visual Composer Elements</a>
+                </li>
+                <li>
+                  <a href="#">WooCommerce Pages</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
