@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className="bg-[#EEEFFB] py-24">
         <div className="container">
-          <div className="flex items-center">
+          <div className="flex items-start gap-x-28 justify-center">
             <div className="flex flex-col gap-y-10">
               <div>
                 <picture>
@@ -38,8 +38,10 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3>Catagories</h3>
-              <ul>
+              <h3 className="text-[22px] font-JosefinFont font-semibold text-black">
+                Catagories
+              </h3>
+              <ul className="text-[#8A8FB9] text-base font-LatoFont font-normal flex flex-col gap-y-5 pt-10">
                 <li>
                   <a href="#">Laptops & Computers</a>
                 </li>
@@ -58,8 +60,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h3>Customer Care</h3>
-              <ul>
+              <h3 className="text-[22px] font-JosefinFont font-semibold text-black">
+                Customer Care
+              </h3>
+              <ul className="text-[#8A8FB9] text-base font-LatoFont font-normal flex flex-col gap-y-5 pt-10">
                 <li>
                   <a href="#">My Account</a>
                 </li>
@@ -78,8 +82,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h4>Pages</h4>
-              <ul>
+              <h4 className="text-[22px] font-JosefinFont font-semibold text-black">
+                Pages
+              </h4>
+              <ul className="text-[#8A8FB9] text-base font-LatoFont font-normal flex flex-col gap-y-5 pt-10">
                 <li>
                   <a href="#">Blog</a>
                 </li>
