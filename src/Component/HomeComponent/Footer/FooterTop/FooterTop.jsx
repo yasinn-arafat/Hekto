@@ -1,7 +1,7 @@
 import React from "react";
 import FooterLogo from "../../../assets/FooterLogo.png";
 
-const Footer = () => {
+const FooterTop = () => {
   return (
     <>
       <div className="bg-[#EEEFFB] py-24">
@@ -28,7 +28,7 @@ const Footer = () => {
               </div>
 
               <div>
-                <h4 className="text-base font-LatoFont text-[#9196AA] font-normal pb-[10px]">
+                <h4 className="text-base font-LatoFont text-[#8A8FB9] font-normal pb-[10px]">
                   Contact Info
                 </h4>
                 <address className="text-[#8A8FB9] text-base font-LatoFont font-normal">
@@ -42,71 +42,72 @@ const Footer = () => {
                 Catagories
               </h3>
               <ul className="text-[#8A8FB9] text-base font-LatoFont font-normal flex flex-col gap-y-5 pt-10">
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Laptops & Computers</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Cameras & Photography</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Smart Phones & Tablets</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Video Games & Consoles</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Waterproof Headphones</a>
                 </li>
               </ul>
             </div>
+
             <div>
               <h3 className="text-[22px] font-JosefinFont font-semibold text-black">
                 Customer Care
               </h3>
               <ul className="text-[#8A8FB9] text-base font-LatoFont font-normal flex flex-col gap-y-5 pt-10">
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">My Account</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Discount</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Returns</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Orders History</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Order Tracking</a>
                 </li>
               </ul>
             </div>
+
             <div>
               <h4 className="text-[22px] font-JosefinFont font-semibold text-black">
                 Pages
               </h4>
               <ul className="text-[#8A8FB9] text-base font-LatoFont font-normal flex flex-col gap-y-5 pt-10">
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Blog</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Browse the Shop</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Category</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Pre-Built Pages</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">Visual Composer Elements</a>
                 </li>
-                <li>
+                <li className="hover:text-[#FB2E86]">
                   <a href="#">WooCommerce Pages</a>
                 </li>
               </ul>
             </div>
-            <div></div>
           </div>
         </div>
       </div>
@@ -114,4 +115,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterTop;
