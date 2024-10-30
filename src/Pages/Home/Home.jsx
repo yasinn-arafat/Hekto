@@ -10,7 +10,7 @@ import TrendingProducts from "../../Component/HomeComponent/TrendingProducts/Tre
 import TopCategories from "../../Component/HomeComponent/TopCategories/TopCategories";
 import NewsLater from "../../Component/HomeComponent/NewsLater/NewsLater";
 import Blog from "../../Component/HomeComponent/Blog/Blog";
-import Footer from "../../Component/HomeComponent/Footer/Footer";
+import Footer from "../../Component/HomeComponent/Footer/Footer/Footer";
 
 const Home = () => {
   return (
