@@ -12,17 +12,17 @@ const FooterBottom = () => {
               ©Webecy - All Rights Reserved
             </h4>
             <div className="flex gap-x-5 items-center">
-              <div className="flex items-center justify-center w-6 h-6 rounded-full bg-[#151875]">
+              <div className="flex items-center justify-center  w-6 h-6 rounded-full bg-[#151875]">
                 <a href="#" className="text-white">
                   <FaFacebookF />
                 </a>
               </div>
-              <div className="flex items-center justify-center w-6 h-6 rounded-full bg-[#151875]">
+              <div className="flex items-center justify-center  w-6 h-6 rounded-full bg-[#151875]">
                 <a href="#" className="text-white">
                   <AiFillInstagram />
                 </a>
               </div>
-              <div className="flex items-center justify-center w-6 h-6 rounded-full bg-[#151875]">
+              <div className="flex items-center justify-center  w-6 h-6 rounded-full bg-[#151875]">
                 <a href="#" className="text-white">
                   <FaTwitter />
                 </a>
